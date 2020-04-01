@@ -5,6 +5,8 @@
 
 若需要自定义固件，请前往[P3TERX](https://github.com/P3TERX/Actions-OpenWrt)的项目主页进行学习。
 
+若需要查看固件源码或下载适用于X86平台的固件，请前往[Lean](https://github.com/coolsnowwolf/lede)的项目主页。
+
 ## 鸣谢
 - [Microsoft](https://www.microsoft.com)
 - [Microsoft Azure](https://azure.microsoft.com)
