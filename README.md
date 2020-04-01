@@ -11,7 +11,7 @@
 
 若需要查看固件源码或下载适用于 X86 平台的固件，请前往 [Lean](https://github.com/coolsnowwolf/lede) 与 [Lienol](https://github.com/Lienol/openwrt-package) 的项目主页。
 
-Passwall 作者已经停止版本更新。
+Passwall 已经停止更新。若使用时遇到问题，请更换为酸酸乳。
 
 ## FAQ
 
