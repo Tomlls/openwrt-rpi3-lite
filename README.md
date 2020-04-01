@@ -9,15 +9,17 @@
 
 若需要查看固件源码或下载适用于 X86 平台的固件，请前往 [Lean](https://github.com/coolsnowwolf/lede) 与 [Lienol](https://github.com/Lienol/openwrt-package) 的项目主页。
 
+Passwall 作者已经停止版本更新。
+
 ## FAQ
 
 - AirPlay 2 在配置完成后无法输出声音？
 
-- 请将 TF 卡插入 Windows 电脑，在根目录下的 config.txt 文件的最后一行（位于 ALL 字段下）插入此内容`dtparam=i2c_arm=on,audio=on`
+请将 TF 卡插入 Windows 电脑，在根目录下的 config.txt 文件的最后一行（位于 ALL 字段下）插入此内容`dtparam=i2c_arm=on,audio=on`
 
 - 系统架构显示为问号？
 
-- 请使用此命令进行修复`sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' /usr/lib/lua/luci/view/admin_status/index.htm`
+请使用此命令进行修复`sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' /usr/lib/lua/luci/view/admin_status/index.htm`
 
 ## 鸣谢
 - [Microsoft](https://www.microsoft.com)
