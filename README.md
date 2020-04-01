@@ -1,4 +1,4 @@
-## 关于
+## 关于此野鸡固件
 编译状态：![Build OpenWrt](https://github.com/Pastechn/openwrt-rpi3-lite/workflows/Build%20OpenWrt/badge.svg)
 
 适用于树莓派 3B 系列的精简版固件，仅包含核心功能。
@@ -11,9 +11,13 @@
 
 ## FAQ
 
-Q：AirPlay 2 在配置完成后无法输出声音？
+- AirPlay 2 在配置完成后无法输出声音？
 
-A：请将 TF 卡插入 Windows 电脑，在根目录下的 config.txt 文件的最后一行（位于 ALL 字段下）插入`dtparam=i2c_arm=on,audio=on`
+- 请将 TF 卡插入 Windows 电脑，在根目录下的 config.txt 文件的最后一行（位于 ALL 字段下）插入此内容`dtparam=i2c_arm=on,audio=on`
+
+- 系统架构显示为问号？
+
+- 请使用此命令进行修复`sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' /usr/lib/lua/luci/view/admin_status/index.htm`
 
 ## 鸣谢
 - [Microsoft](https://www.microsoft.com)
