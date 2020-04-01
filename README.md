@@ -3,9 +3,10 @@
 
 适用于树莓派 3B 系列的精简版固件，仅包含核心功能。
 
-若需要自定义固件，请前往[P3TERX](https://github.com/P3TERX/Actions-OpenWrt)的项目主页进行学习。
+若需要自定义固件，请前往 [P3TERX](https://github.com/P3TERX/Actions-OpenWrt) 的项目主页进行学习。
 
-若需要查看固件源码或下载适用于X86平台的固件，请前往[Lean](https://github.com/coolsnowwolf/lede)的项目主页。
+若需要查看固件源码或下载适用于 X86 平台的固件，请前往 [Lean](https://github.com/coolsnowwolf/lede) 的项目主页。
+
 
 ## 鸣谢
 - [Microsoft](https://www.microsoft.com)
@@ -21,6 +22,7 @@
 - [Cowtransfer](https://cowtransfer.com)
 - [Mikubill/cowtransfer-uploader](https://github.com/Mikubill/cowtransfer-uploader)
 - [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
+
 
 ## 许可
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE) © P3TERX
