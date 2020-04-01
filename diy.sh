@@ -19,9 +19,5 @@ rm -rf ../lean/luci-theme-argon
 # Add luci-app-onliner (need luci-app-nlbwmon)
 git clone https://github.com/rufengsuixing/luci-app-onliner
 
-# Add OpenAppFilter
-git clone https://github.com/destan19/OpenAppFilter
-popd
-
 # fix '?'
 # sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' /usr/lib/lua/luci/view/admin_status/index.htm
