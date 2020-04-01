@@ -3,10 +3,19 @@
 
 适用于树莓派 3B 系列的精简版固件，仅包含核心功能。
 
+若需要完整版固件，请前往 [SuLingGG](https://github.com/SuLingGG/OpenWrt-Rpi) 的项目主页，囊括了树莓派所有系列。
+
 若需要自定义固件，请前往 [P3TERX](https://github.com/P3TERX/Actions-OpenWrt) 的项目主页进行学习。
 
 若需要查看固件源码或下载适用于 X86 平台的固件，请前往 [Lean](https://github.com/coolsnowwolf/lede) 的项目主页。
 
+## FAQ
+
+Q：AirPlay 2 在配置完成后无法输出声音？
+
+A：请将 TF 卡插入 Windows 电脑，在根目录下的 config.txt 文件的最后一行（位于 ALL 字段下）插入如下内容
+
+`dtparam=i2c_arm=on,audio=on`
 
 ## 鸣谢
 - [Microsoft](https://www.microsoft.com)
