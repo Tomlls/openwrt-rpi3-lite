@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: Build OpenWrt
+name: OpenWrt for Raspberry Pi 3B Lite
 
 on:
   # release:
