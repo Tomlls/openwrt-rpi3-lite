@@ -16,4 +16,4 @@ rm -rf ../lean/luci-theme-argon
 git clone https://github.com/rufengsuixing/luci-app-onliner
 
 # fix '?'
-sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' /usr/lib/lua/luci/view/admin_status/index.htm
+# sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' /usr/lib/lua/luci/view/admin_status/index.htm
