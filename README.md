@@ -31,6 +31,10 @@ Passwall 已经停止更新。若使用时遇到问题，请更换为酸酸乳�
 
 请使用自定义命令功能，添加此命令 `cat /sys/class/thermal/thermal_zone0/temp` 然后执行，返回的数值除以 1,000 即是 CPU 温度。
 
+- 我的 TF 卡容量很大，但是固件只占用了很小一部分，如何找回剩余空间？
+
+请参考[这篇教程](https://bugxia.com/1038.html)来挂载剩余空间。
+
 ## 鸣谢
 - [Microsoft](https://www.microsoft.com)
 - [Microsoft Azure](https://azure.microsoft.com)
