@@ -13,6 +13,8 @@
 
 若需要查看固件源码或下载适用于 X86 平台的固件，请前往 [Lean](https://github.com/coolsnowwolf/lede) 与 [Lienol](https://github.com/Lienol/openwrt-package) 的项目主页。
 
+由于 GitHub 限制，编译内容需要注册后才可下载。若无法注册，可前往[网盘](https://odpast.herokuapp.com/RaspiOpenWrt/)下载。
+
 Passwall 已经停止更新。若使用时遇到问题，请更换为酸酸乳。
 
 ## FAQ
