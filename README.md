@@ -1,5 +1,5 @@
 ## 关于此野鸡固件
-编译状态：![Build OpenWrt](https://github.com/Pastechn/openwrt-rpi3-lite/workflows/Build%20OpenWrt/badge.svg)
+编译状态：![OpenWrt for Raspberry Pi 3B Lite](https://github.com/Pastechn/openwrt-rpi3-lite/workflows/OpenWrt%20for%20Raspberry%20Pi%203B%20Lite/badge.svg)
 
 本项目基于 P3TERX 与 SuLingGG 的自动编译项目，适用于树莓派 3B 系列，仅包含**核心**功能。
 
