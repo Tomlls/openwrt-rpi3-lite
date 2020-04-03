@@ -1,6 +1,8 @@
 ## 关于此野鸡固件
 编译状态：![OpenWrt for Raspberry Pi 3B Lite](https://github.com/Pastechn/openwrt-rpi3-lite/workflows/OpenWrt%20for%20Raspberry%20Pi%203B%20Lite/badge.svg)
 
+下载直达连接：https://github.com/Pastechn/openwrt-rpi3-lite/actions
+
 本项目基于 P3TERX 与 SuLingGG 的自动编译项目，适用于树莓派 3B 系列，仅包含**核心**功能。
 
 相比于完整版固件，本野鸡固件无论是在体积、启动速度还是运行速度上都有了质的提升，适合养老。
