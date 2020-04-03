@@ -54,8 +54,6 @@ LED 配置
 
 网络唤醒
 
-KMS 服务器
-
 HAProxy
 
 UPnP
@@ -64,15 +62,11 @@ Air Play 2 音频接收器
 
 ### 网络存储
 
-FTP 服务器
-
 文件传输助手
 
 ### VPN
 
 Passwall
-
-SSR Python 服务器
 
 ### 网络
 
