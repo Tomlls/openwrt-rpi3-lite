@@ -3,7 +3,7 @@
 
 下载直达连接：https://github.com/Pastechn/openwrt-rpi3-lite/actions
 
-由于 GitHub 限制，编译内容需要注册后才可下载。若无法注册，可前往 [OneDrive](http://47.115.29.209) 下载。
+由于 GitHub 限制，编译内容需要注册后才可下载。若无法注册，可前往 [OneDrive](http://47.115.29.209/nd/) 下载。
 
 本项目基于 P3TERX 与 SuLingGG 的自动编译项目，适用于树莓派 3B 系列，仅包含**核心**功能。
 
