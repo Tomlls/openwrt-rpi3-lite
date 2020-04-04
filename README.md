@@ -3,6 +3,8 @@
 
 下载直达连接：https://github.com/Pastechn/openwrt-rpi3-lite/actions
 
+由于 GitHub 限制，编译内容需要注册后才可下载。若无法注册，可前往 [OneDrive](http://47.115.29.209) 下载。
+
 本项目基于 P3TERX 与 SuLingGG 的自动编译项目，适用于树莓派 3B 系列，仅包含**核心**功能。
 
 相比于完整版固件，本野鸡固件无论是在体积、启动速度还是运行速度上都有了质的提升，适合养老。
@@ -14,8 +16,6 @@
 若需要自定义固件，请前往 [P3TERX](https://github.com/P3TERX/Actions-OpenWrt) 的项目主页进行学习。
 
 若需要查看固件源码或下载适用于 X86 平台的固件，请前往 [Lean](https://github.com/coolsnowwolf/lede) 与 [Lienol](https://github.com/Lienol/openwrt-package) 的项目主页。
-
-由于 GitHub 限制，编译内容需要注册后才可下载。若无法注册，可前往[网盘](https://odpast.herokuapp.com/RaspiOpenWrt/)下载。
 
 Passwall 已经停止更新。若使用时遇到问题，请更换为酸酸乳。
 
@@ -35,23 +35,13 @@ Passwall 已经停止更新。若使用时遇到问题，请更换为酸酸乳�
 
 - 我的 TF 卡容量很大，但是固件只占用了很小一部分，如何找回剩余空间？
 
-请参考[这篇教程](https://bugxia.com/1038.html)来挂载剩余空间。
+请参考[这篇教程](https://bugxia.com/1038.html)来挂载剩余空间，或者使用内置的磁盘管理。
 
 ## 鸣谢
-- [Microsoft](https://www.microsoft.com)
-- [Microsoft Azure](https://azure.microsoft.com)
-- [GitHub](https://github.com)
-- [GitHub Actions](https://github.com/features/actions)
-- [tmate](https://github.com/tmate-io/tmate)
-- [mxschmitt/action-tmate](https://github.com/mxschmitt/action-tmate)
-- [csexton/debugger-action](https://github.com/csexton/debugger-action)
-- [Cisco](https://www.cisco.com/)
-- [OpenWrt](https://github.com/openwrt/openwrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
+- [Lean](https://github.com/coolsnowwolf/lede)
 - [Lienol](https://github.com/Lienol/openwrt-package)
-- [Cowtransfer](https://cowtransfer.com)
-- [Mikubill/cowtransfer-uploader](https://github.com/Mikubill/cowtransfer-uploader)
 - [P3TERX](https://github.com/P3TERX/Actions-OpenWrt)
+- [SuLingGG](https://github.com/SuLingGG/OpenWrt-Rpi)
 
 
 ## 许可
