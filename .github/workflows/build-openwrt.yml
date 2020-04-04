@@ -28,6 +28,9 @@ env:
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   TZ: Asia/Shanghai
+  TARGET: bcm27xx
+  SUBTARGET: bcm2710
+  DEVICE: openwrt-bcm27xx-bcm2710-rpi-3
   UPLOAD_EXT4_IMAGES: true
   UPLOAD_SQUASHFS_IMAGES: true
 
