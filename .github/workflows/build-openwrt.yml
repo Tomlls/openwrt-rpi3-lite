@@ -27,10 +27,12 @@ env:
   CONFIG_FILE: .config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
-  UPLOAD_BIN_DIR: true
+  UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: false
   UPLOAD_COWTRANSFER: false
   TZ: Asia/Shanghai
+  UPLOAD_EXT4_IMAGES: true
+  UPLOAD_SQUASHFS_IMAGES: true
 
 jobs:
   build:
@@ -100,6 +102,34 @@ jobs:
       with:
         name: OpenWrt_bin
         path: openwrt/bin
+    
+    - name: Upload SquashFS Factory Image
+      uses: actions/upload-artifact@master
+      if: steps.compile.outputs.status == 'success' && env.UPLOAD_SQUASHFS_IMAGES == 'true'
+      with:
+        name: ${{ env.DEVICE }}-squashfs-factory.img
+        path: openwrt/bin/targets/${{ env.TARGET }}/${{ env.SUBTARGET }}/${{ env.DEVICE }}-squashfs-factory.img
+        
+    - name: Upload SquashFS Sysupgrade Image
+      uses: actions/upload-artifact@master
+      if: steps.compile.outputs.status == 'success' && env.UPLOAD_SQUASHFS_IMAGES == 'true'
+      with:
+        name: ${{ env.DEVICE }}-squashfs-sysupgrade.img
+        path: openwrt/bin/targets/${{ env.TARGET }}/${{ env.SUBTARGET }}/${{ env.DEVICE }}-squashfs-sysupgrade.img
+        
+    - name: Upload Ext4 Factory Image
+      uses: actions/upload-artifact@master
+      if: steps.compile.outputs.status == 'success' && env.UPLOAD_EXT4_IMAGES == 'true'
+      with:
+        name: ${{ env.DEVICE }}-ext4-factory.img
+        path: openwrt/bin/targets/${{ env.TARGET }}/${{ env.SUBTARGET }}/${{ env.DEVICE }}-ext4-factory.img
+        
+    - name: Upload Ext4 Sysupgrade Image
+      uses: actions/upload-artifact@master
+      if: steps.compile.outputs.status == 'success' && env.UPLOAD_EXT4_IMAGES == 'true'
+      with:
+        name: ${{ env.DEVICE }}-ext4-sysupgrade.img
+        path: openwrt/bin/targets/${{ env.TARGET }}/${{ env.SUBTARGET }}/${{ env.DEVICE }}-ext4-sysupgrade.img
 
     - name: Organize files
       id: organize
