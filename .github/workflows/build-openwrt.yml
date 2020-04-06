@@ -31,7 +31,7 @@ env:
   TARGET: bcm27xx
   SUBTARGET: bcm2710
   DEVICE: openwrt-bcm27xx-bcm2710-rpi-3
-  UPLOAD_EXT4_IMAGES: true
+  UPLOAD_EXT4_IMAGES: false
   UPLOAD_SQUASHFS_IMAGES: true
 
 jobs:
