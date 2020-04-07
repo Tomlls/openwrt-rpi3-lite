@@ -5,7 +5,7 @@
 
 由于 GitHub 限制，编译内容需要注册后才可下载。若无法注册，可前往 [OneDrive](https://odpast.herokuapp.com/RaspiOpenWrt/) 下载。
 
-本项目基于 P3TERX 与 SuLingGG 的自动编译项目，适用于树莓派 3B 系列，仅包含**核心**功能。
+本项目基于 [P3TERX](https://github.com/P3TERX/Actions-OpenWrt) 与 [SuLingGG](https://github.com/SuLingGG/OpenWrt-Rpi) 的自动编译项目，适用于树莓派 3B 系列，仅包含**核心**功能。
 
 相比于完整版固件，本野鸡固件无论是在体积、启动速度还是运行速度上都有了质的提升，适合养老。
 
