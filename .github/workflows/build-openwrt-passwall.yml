@@ -15,7 +15,7 @@ on:
     branches:
       - master
     paths:
-      - 'build.lean.conf'
+      - 'build.lienol.conf'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: lean.config
+  CONFIG_FILE: lienol.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   TZ: Asia/Shanghai
