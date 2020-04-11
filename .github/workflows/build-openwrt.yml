@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt for Raspberry Pi 3B Lite
+name: OpenWrt with ShadowSocksR Plus +
 
 on:
   # release:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: l.config
+  CONFIG_FILE: lean.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   TZ: Asia/Shanghai
