@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: lienol.config
+  CONFIG_FILE: lienol_test.config
   DIY_SH: diy.sh
   SSH_ACTIONS: false
   TZ: Asia/Shanghai
