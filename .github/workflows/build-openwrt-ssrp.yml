@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: OpenWrt with ShadowSocksR Plus +
+name: OpenWrt for Raspberry Pi 3B series Lite
 
 on:
   # release:
@@ -63,7 +63,7 @@ jobs:
     - name: Update Feeds
       run: |
        cd openwrt
-       echo "src-git darkmatter https://github.com/apollo-ng/luci-theme-darkmatter" >> feeds.conf.default
+       echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
        ./scripts/feeds update -a
        
     - name: Install feeds
